@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative py-32 md:py-40 flex items-center justify-center overflow-hidden"
     >
       <img
         src={heroBg}
@@ -48,9 +48,6 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted-foreground text-xs tracking-widest uppercase animate-pulse">
-        Scroll ↓
-      </div>
     </section>
   );
 }

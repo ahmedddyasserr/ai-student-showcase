@@ -4,8 +4,8 @@ const items = [
   {
     icon: Mail,
     label: "Email",
-    value: "ahmed.yasser@miuegypt.edu.eg",
-    href: "mailto:ahmed.yasser@miuegypt.edu.eg",
+    value: "ahmeddyasserr23@gmail.com",
+    href: "mailto:ahmeddyasserr23@gmail.com",
   },
   {
     icon: MapPin,
@@ -15,14 +15,14 @@ const items = [
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/ahmedyasser",
-    href: "https://github.com",
+    value: "github.com/ahmedddyasserr",
+    href: "https://github.com/ahmedddyasserr",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/ahmedyasser",
-    href: "https://linkedin.com",
+    value: "linkedin.com/in/ahmed-yasser",
+    href: "https://www.linkedin.com/in/ahmed-yasser-15892a31a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   },
 ];
 
