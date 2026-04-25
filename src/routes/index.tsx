@@ -30,8 +30,8 @@ function Index() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
-      <Hero />
       <About />
+      <Hero />
       <Skills />
       <Certificates />
       <Contact />
