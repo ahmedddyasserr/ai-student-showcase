@@ -67,7 +67,7 @@ export function Contact() {
         </div>
 
         <footer className="mt-20 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Ahmed Yasser. Built with passion for AI.
+          © {new Date().getFullYear()} Ahmed Yasser.
         </footer>
       </div>
     </section>
