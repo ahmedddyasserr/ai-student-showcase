@@ -46,7 +46,6 @@ export function Navbar() {
           href={cvAsset.url}
           target="_blank"
           rel="noreferrer"
-          download="AhmedYasser-CV.pdf"
           className="ml-4 px-4 py-2 rounded-full bg-gradient-brand text-primary-foreground text-xs tracking-widest uppercase font-medium hover:opacity-90 transition-opacity shadow-[var(--shadow-glow)]"
         >
           Check CV
