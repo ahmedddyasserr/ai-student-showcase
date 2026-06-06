@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import cvAsset from "@/assets/cv.pdf.asset.json";
 
 const links = [
   { href: "#about", label: "About" },
@@ -41,6 +42,14 @@ export function Navbar() {
             </li>
           ))}
         </ul>
+        <a
+          href={cvAsset.url}
+          target="_blank"
+          rel="noreferrer"
+          className="ml-4 px-4 py-2 rounded-full bg-gradient-brand text-primary-foreground text-xs tracking-widest uppercase font-medium hover:opacity-90 transition-opacity shadow-[var(--shadow-glow)]"
+        >
+          Check CV
+        </a>
       </nav>
     </header>
   );
